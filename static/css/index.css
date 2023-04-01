@@ -1,0 +1,92 @@
+.navbar {
+    height: 100px;
+    /* Increase the height to 70px */
+}
+
+.bi-activity {
+    font-size: 45px;
+    color: rgb(54, 255, 47);
+}
+
+
+/* 
+.carousel {
+    height: 200px;
+} */
+
+.carousel img {
+    height: 500px;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+}
+
+.hr {
+    border: 2px solid goldenrod;
+    width: 100%;
+}
+
+h2 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.footer-col {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.social-media li a {
+    color: white;
+    font-size: 20px;
+}
+
+ul.social-media li a:hover {
+    color: white;
+}
